@@ -1,0 +1,253 @@
+body
+{
+ margin: 0px;
+ padding:0px;
+ overflow-x: hidden;
+}
+a
+{
+    text-decoration: none;
+}
+.nav-link
+{
+    color: #333 !important;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+.nav-link:hover
+{
+    color: #7ED321 !important; 
+}
+.caption_1
+{
+    position: absolute;
+    top: 50%;
+    margin-top: -140px;
+    left: 0;
+    width: 100%;
+    color: #333;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 0px 12px rgba(255,255,255,.8), 0 0 9px rgba(255,255,255,.8), 0 0 6px rgba(255,255,255,.8), 0 0 3px rgba(255,255,255,.8);
+}
+@media(max-width:450px)
+{
+    .caption_1
+{
+    position: absolute;
+    top: 90%;
+    margin-top: -140px;
+    left: 0;
+    width: 100%;
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 0px 12px rgba(255,255,255,.8), 0 0 9px rgba(255,255,255,.8), 0 0 6px rgba(255,255,255,.8), 0 0 3px rgba(255,255,255,.8);
+}
+
+}
+.img_2 img
+{
+    width: 90%;
+}
+.abt_2 p
+{
+    margin-top: 5%;
+}
+#section_3 a
+{
+    color: white;
+    text-decoration:none;
+}
+#section_4 a
+{
+    color: white;
+    text-decoration:none;
+}
+ .clean
+{
+    background-color: #EDF7EF !important;
+    color: #4B7F5B !important;
+}
+ .clean button 
+{
+    background-color:#5F8E6E;
+    color:white;
+}
+ .clean button:hover
+{
+    background-color: #253F2D;
+}
+ .slim
+{
+    background-color: #FEFEF4 !important;
+    color: #928D4D !important;
+}
+ .slim button 
+{
+    background-color:#928D4D;
+    color:white;
+}
+#section_3 .slim button:hover
+{
+    background-color: #494626;;
+}
+ .bulk
+{
+    background-color: #F0F9FE !important;
+    color: #83AAC0 !important;
+}
+ .bulk button
+{
+    background-color:#83AAC0;
+    color:white;
+}
+ .bulk button:hover
+{
+    background-color: #163547;
+}
+ .gluten
+{
+    background-color: #FDEAFE !important;
+    color: #C08FBA !important;
+}
+ .gluten button
+{
+    background-color:#C08FBA;
+    color:white;
+}
+ .gluten button:hover
+{
+    background-color: #583C54;
+}
+#footer button
+{
+   background-color: #333333;
+   color: white;
+}
+#footer button:hover{
+    background-color: #7ED321;
+}
+#nav_bar ul li
+{ 
+    display: inline-block;
+    text-align: center;
+}
+#nav_bar ul li a
+{
+    padding-right: 10px;
+    color: black;
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    
+} 
+ #nav_bar .clean:hover
+{
+    color: #4B7F5B;
+    transition:0.5s; 
+}
+#nav_bar .slim:hover
+{
+    color: #928D4D;
+    transition:0.5s; 
+}
+#nav_bar .bulk:hover
+{
+    color: #2C6B8E;
+    transition:0.5s; 
+}
+#nav_bar .gluten:hover
+{
+    color: #B078A9;
+    transition:0.5s; 
+}
+#clean_abt img
+{
+ width:100%;
+ height: 800px;
+}
+.clean_desc h1,p
+{
+color: #4B7F5B;
+}
+.option h4
+{
+    color: #4B7F5B;
+}
+#slim_abt img
+{
+ width:100%;
+ height: 800px;
+}
+.slim_desc h1,p
+{
+color: #928D4D;
+}
+.option1 h4
+{
+    color:#928D4D;
+}
+#bulk_abt img
+{
+ width:100%;
+ height: 800px;
+}
+.bulk_desc h1,p
+{
+color: #2C6B8E;
+}
+.option2 h4
+{
+    color:#2C6B8E;
+}
+#gluten_abt img
+{
+ width:100%;
+ height: 800px;
+}
+.gluten_desc h1,p
+{
+color: #B078A9;
+}
+.option3 h4
+{
+    color:#B078A9;
+}
+
+#how_work 
+{
+    margin-bottom: 2%;
+}
+#best_work 
+{
+    text-align: center;
+}
+#best_work img
+{
+    width:50%;
+}
+#faqs table tr{
+    border-bottom:1px solid grey;
+}
+#fit_2 img
+{
+    max-height: 100px;
+}
+@media(max-width:767px)
+{
+    #fit_2 .arr img 
+    {
+        transform: rotate(90deg);
+    }
+
+}
+
